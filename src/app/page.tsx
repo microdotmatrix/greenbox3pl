@@ -1,3 +1,4 @@
+import ContactForm from "@/components/contact";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -134,13 +135,13 @@ export default function HomePage() {
                 </Button>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-2xl">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/gb3pl.png?height=1280&width=1280"
                 alt="Logistics warehouse operations"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-2xl"
+                width={1280}
+                height={1280}
+                className="object-cover size-full"
               />
             </div>
           </div>
@@ -522,6 +523,10 @@ export default function HomePage() {
             </Button>
           </div>
         </div>
+      </section>
+
+      <section>
+        <ContactForm />
       </section>
 
       {/* Footer */}
