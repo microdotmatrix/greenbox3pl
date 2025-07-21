@@ -37,10 +37,11 @@ export const About = () => {
               </div>
               <div className="space-y-2">
                 <h4 className="font-semibold text-green-600">
-                  Smoke Drop Preferred
+                  Brand Preferred
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Official partner with seamless integration
+                  Official partner with industry leading brands and seamless
+                  integrations
                 </p>
               </div>
               <div className="space-y-2">
@@ -53,13 +54,12 @@ export const About = () => {
               </div>
             </div>
           </div>
-          <div className="relative max-w-md min-h-64 mx-auto w-full h-full grid place-content-center rounded-lg shadow-lg p-8 order-1 lg:order-2">
+          <div className="relative max-w-md min-h-64 mx-auto w-full h-full grid place-content-center shadow-lg rounded-lg overflow-hidden order-1 lg:order-2">
             <Image
-              src="/images/smoke-drop.png"
+              src="/images/gb3pl-shipping.jpg"
               alt="Modern warehouse facility"
-              width={420}
-              height={420}
-              className="object-contain max-w-xs"
+              fill
+              className="object-cover"
             />
           </div>
         </div>

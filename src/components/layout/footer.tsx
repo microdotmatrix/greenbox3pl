@@ -41,9 +41,7 @@ export const Footer = () => {
             <h4 className="font-semibold">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <a href="mailto:smokedrop@greenbox3pl.com">
-                  smokedrop@greenbox3pl.com
-                </a>
+                <a href="mailto:info@greenbox3pl.com">info@greenbox3pl.com</a>
               </li>
               <li>
                 <a href="tel:8135926816">813-592-6816</a>

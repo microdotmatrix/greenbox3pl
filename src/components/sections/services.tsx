@@ -27,7 +27,7 @@ export const Services = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Boutique fulfillment services designed specifically for cannabis
-            accessory brands and Smoke Drop vendors
+            accessory brands
           </p>
         </div>
 
@@ -90,15 +90,15 @@ export const Services = () => {
           <Card className="border-green-100 hover:border-green-200 transition-colors">
             <CardHeader>
               <BarChart3 className="h-12 w-12 text-green-600 mb-4" />
-              <CardTitle>Smoke Drop Integration</CardTitle>
+              <CardTitle>Platform Integration</CardTitle>
               <CardDescription>
-                Seamless integration with Smoke Drop platform and personalized
+                Seamless integration with your platform and personalized
                 reporting
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Direct Smoke Drop sync</li>
+                <li>• ERP/CRM sync</li>
                 <li>• Custom dashboards</li>
                 <li>• Inventory alerts</li>
                 <li>• Performance insights</li>
@@ -111,8 +111,7 @@ export const Services = () => {
               <Globe className="h-12 w-12 text-green-600 mb-4" />
               <CardTitle>Multi-Channel Support</CardTitle>
               <CardDescription>
-                Beyond Smoke Drop - support for your direct-to-consumer and
-                retail channels
+                Support for your direct-to-consumer and retail channels
               </CardDescription>
             </CardHeader>
             <CardContent>

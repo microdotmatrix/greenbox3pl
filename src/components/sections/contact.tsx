@@ -21,8 +21,8 @@ export const Contact = () => {
             Ready to Elevate Your Cannabis Accessory Fulfillment?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Join the growing family of Smoke Drop vendors who trust us with
-            their fulfillment
+            Join the growing family of vendors who trust us with their
+            fulfillment
           </p>
         </div>
 
@@ -57,9 +57,7 @@ export const Contact = () => {
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-lg font-semibold">
-                <a href="mailto:smokedrop@greenbox3pl.com">
-                  smokedrop@greenbox3pl.com
-                </a>
+                <a href="mailto:info@greenbox3pl.com">info@greenbox3pl.com</a>
               </p>
               <p className="text-sm text-muted-foreground">
                 Response within 24 hours
@@ -71,7 +69,7 @@ export const Contact = () => {
         <div className="text-center mt-12">
           <Link href="#contact-form">
             <Button size="lg" className="bg-green-600 hover:bg-green-700">
-              Get Your Custom Smoke Drop Quote <ArrowDown />
+              Get Your Custom Quote <ArrowDown />
             </Button>
           </Link>
         </div>

@@ -53,9 +53,9 @@ export const Benefits = () => {
             <div className="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
               <Clock className="h-8 w-8 text-green-600" />
             </div>
-            <h3 className="text-xl font-semibold">Smoke Drop Ready</h3>
+            <h3 className="text-xl font-semibold">System Integration</h3>
             <p className="text-muted-foreground">
-              Seamless integration with your existing Smoke Drop operations
+              Seamless integration with your existing customer relations systems
             </p>
           </div>
         </div>

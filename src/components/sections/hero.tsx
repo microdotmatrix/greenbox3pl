@@ -21,9 +21,9 @@ export const Hero = () => {
               Fulfillment
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl">
-              The preferred 3PL partner for Smoke Drop vendors. We specialize in
-              cannabis accessory fulfillment with the personal touch your brand
-              deserves. Compliant, reliable, and tailored to your unique needs.
+              We specialize in cannabis accessory fulfillment with the personal
+              touch your brand deserves. Compliant, reliable, and tailored to
+              your unique needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
